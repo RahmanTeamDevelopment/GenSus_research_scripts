@@ -19,12 +19,12 @@ variant_inheritance_set_of_genes.py
 
 This script, given affection and relationship infromation of families being studied, 
 outputs a detailed summary of variants that passed some requirements, together with information about the type of inheritance and whether a trio was analyzed or not.
-Requirements, meaning:
-
+Requirements, meaning variants should be:
+		
+		within a certain set of genes, given as input
 		not IMPACT 3 (besides SYs)
 		Minor Allele Frequency ICR1000 < 0.5%
 		Minor Allele Frequency ExAC <0.5%
-		only variants in certain set of genes, given as input
 		
 		
 
