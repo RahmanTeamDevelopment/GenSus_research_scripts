@@ -283,8 +283,8 @@ def extract_variants(input_path, icr1000_dict, inHouse419_dict, exac_dict, input
 if __name__ == "__main__":
 	
 	# Parse command line arguments 
-	descri = 'Variant_prioritization_set_of_genes.py'
-	parser = optparse.OptionParser(usage='python path/to/Variant_prioritization_set_of_genes.py <options>', description=descri)
+	descri = 'variant_inheritance_set_of_genes.py'
+	parser = optparse.OptionParser(usage='python path/to/variant_inheritance_set_of_genes.py <options>', description=descri)
 	parser.add_option('-I', dest='input', help='input TSV file of 4 columns: SampleID, FamilyID, Relationship (Father/Mother/Proband/...), Affected?(Affected,Unaffected,Unknown). File MUST have header starting with #')	
 	parser.add_option('--genes', dest='path_genes_list', help='file with genes list, each gene in a separate line')
 	
